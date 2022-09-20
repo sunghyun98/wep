@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="board.css">
+    <style>
+        .color {
+            color: blue;
+            text-align: center;
+        }
+
+        #submit {
+            text-align: center;
+            font-size: 20px;
+            font-style: 궁서;
+            color: green;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post">
+        <table border="1">
+            <tr align="center" style=background:lime; >
+                <td width="100px">항목</td>
+                <td>입력</td>
+            </tr>
+            <tr>
+                <td class="color">번호</td>
+                <td class="color1"><input type="text" id=" number" style="background: palegoldenrod;"></td>
+            </tr>
+            <tr>
+                <td class="color">제목</td>
+                <td class="color1"><input type="text" class="color3" name="title"></td>
+            </tr>
+            <tr>
+                <td class="color">내용</td>
+                <td class="color1"><input type="text" class="color3" name="Contents"></td>
+            </tr>
+            <tr>
+                <td class="color">작성자</td>
+                <td class="color1"><input type="text" class="color3" name="name"></td>
+            </tr>
+            <tr>
+                <td colspan="2" bgcolor="yellow" align="center">
+                    <input type="submit" value="글쓰기 완료." id="submit">
+                </td>
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
